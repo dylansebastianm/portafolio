@@ -1,0 +1,85 @@
+.cards-component{
+    display: flex;
+    margin-left: 5rem;
+    gap: 2rem;
+}
+
+.card-aux{
+    text-align: start;
+}
+
+.skills-container{
+    display: flex;
+    font-size: 2rem;
+    gap: 0.5rem;
+    margin-left: 5rem;
+
+
+}
+
+.skills{
+    cursor: pointer;
+}
+.skills:hover{
+    transform: scale(1.2);
+}
+
+.skill-name{
+    font-size: 16px;
+}
+
+.titles{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 5rem;
+    font-style: oblique;
+    color: gray;
+}
+
+.tittle-cards{
+    margin-top: 7rem;
+    margin-left: 8rem;
+}
+
+.titles-skills{
+    margin-left: 8rem;
+}
+
+.title-proyects{
+    margin-top: 4rem;
+    margin-left: 8rem;
+}
+
+.proyects{
+    margin-left: 5rem;
+}
+
+.cards{
+    display: flex;
+    gap: 3rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}
+.info{
+    display: flex;
+    text-align: start;
+}
+
+
+.pf-info{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.icon-github{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.icon-github:hover{
+    transform: scale(1.2);
+}
+
+.links-aux{
+    text-decoration: none;
+}

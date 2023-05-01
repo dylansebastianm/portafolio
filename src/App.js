@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import { AboutMe } from './Components/AboutMe/AboutMe';
+import Nav from "./Components/Nav/Nav"
 
 function App() {
   return (
     <div className="App">
-      Protafolio en construccion, Dylan Sebastian Marcote.
-      Full Stack Developer. React.js Front-End
+     <Nav />
+     <AboutMe />
     </div>
   );
 }
