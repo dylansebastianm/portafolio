@@ -23,7 +23,7 @@ function AboutMe (){
     return(
         <div id="about-me"  className="about-me-component">
             <div className="tittle-cards">
-            <p className="titles"> About me</p>
+            <p className="titles aboutme-title"> About me</p>
             <div className="cards-component">
                 <div className="card-img">
                 <Card
@@ -58,7 +58,7 @@ function AboutMe (){
             </div>
           
             <div  className="titles-skills">
-            <p className="titles">Skills</p>
+            <p className="titles aboutme-title">Skills</p>
             <div id="proyects" className="skills-container">
                     <div>
                     <SiJavascript className="skills"/>

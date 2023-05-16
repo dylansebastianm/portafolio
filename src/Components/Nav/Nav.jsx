@@ -14,7 +14,7 @@ export default function Nav () {
             Skills
             </a>
             <a href="#proyects" className="links"> 
-            Poryects
+            Proyects
             </a>
             </div>
            

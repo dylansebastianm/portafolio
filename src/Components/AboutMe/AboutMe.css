@@ -1,7 +1,13 @@
 .cards-component{
     display: flex;
-    margin-left: 5rem;
+    flex-wrap: wrap;
+    /* margin-left: 5rem; */
     gap: 2rem;
+}
+
+.about-me-component{
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 .card-aux{
@@ -12,8 +18,8 @@
     display: flex;
     font-size: 2rem;
     gap: 0.5rem;
-    margin-left: 5rem;
-
+    /* margin-left: 5rem; */
+    flex-wrap: wrap;
 
 }
 
@@ -31,34 +37,35 @@
 .titles{
     display: flex;
     align-items: flex-start;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
     font-style: oblique;
     color: gray;
 }
 
 .tittle-cards{
     margin-top: 7rem;
-    margin-left: 8rem;
+   /*  margin-left: 8rem; */
 }
 
-.titles-skills{
-    margin-left: 8rem;
-}
+/* .titles-skills{
+} */
 
 .title-proyects{
     margin-top: 4rem;
-    margin-left: 8rem;
+   /*  margin-left: 8rem; */
 }
 
 .proyects{
-    margin-left: 5rem;
+    flex-wrap: wrap;
+    /* margin-left: 5rem; */
 }
 
 .cards{
     display: flex;
     gap: 3rem;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
     margin-bottom: 5rem;
+    flex-wrap: wrap;
 }
 .info{
     display: flex;
@@ -82,4 +89,34 @@
 
 .links-aux{
     text-decoration: none;
+}
+
+@media (max-width: 650px) {
+
+    .about-me-component{
+        margin-left: 3rem !important;
+        margin-right: 3rem !important;
+    }
+    
+    .cards-component{
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: 5rem; */
+        gap: 2rem;
+        justify-content: center !important;
+    }
+
+    .aboutme-title{
+       
+        margin-left: 2rem;
+    }
+
+    .skills-container{
+        display: flex;
+        font-size: 2rem;
+        gap: 0.5rem;
+        /* margin-left: 5rem; */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
