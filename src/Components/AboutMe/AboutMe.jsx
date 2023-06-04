@@ -3,13 +3,15 @@ import { Card, Space } from 'antd';
 import { AiOutlineAntDesign } from "react-icons/ai";
 import { SiJavascript, SiGithub, SiReact, SiHtml5, SiBootstrap, SiRedux,
         SiNodedotjs, SiPostgresql, SiSequelize, SiExpress, SiPostman, SiNpm,
-        SiAuth0, SiMercadopago
+        SiAuth0, SiMercadopago, SiTypescript, SiPython
     } from "react-icons/si";
+    
 import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
 import { Avatar } from 'antd';
 import dylanPicture from "./dylan-sebastian.jpg";
 import pfImg from "./Captura.PNG";
 import todoApp from "./Captura4.PNG";
+import creditCard from "./CapturaCredit.PNG"
 
 
 
@@ -62,7 +64,7 @@ function AboutMe (){
             <div id="proyects" className="skills-container">
                     <div>
                     <SiJavascript className="skills"/>
-                    <p className="skill-name">Java Script</p>
+                    <p className="skill-name">JavaScript</p>
                     </div>
                     <div>
                     <SiGithub className="skills"/>
@@ -90,7 +92,7 @@ function AboutMe (){
                     </div>
                     <div>
                     <SiPostgresql className="skills"/>
-                    <p className="skill-name">PostgresSql</p>
+                    <p className="skill-name">PostgreSQL</p>
                     </div>
                     <div>
                     <SiSequelize className="skills"/>
@@ -120,6 +122,14 @@ function AboutMe (){
                     <SiAuth0 className="skills"/>
                     <p className="skill-name">Auth0</p>
                     </div>  
+                    <div>
+                    <SiTypescript className="skills"/>
+                    <p className="skill-name">Typescript</p>
+                    </div> 
+                    <div>
+                    <SiPython className="skills"/>
+                    <p className="skill-name">Python</p>
+                    </div> 
 
                 </div>
             </div>
@@ -131,7 +141,11 @@ function AboutMe (){
                         <a className="links-aux" href="https://pf-front-y72g-git-develop-pfgrupo3henry.vercel.app/">
                         <Card
                     hoverable
-                    style={{ width: 300 }}
+                    style={{
+                        width: 310,
+                        height:450  
+                        
+                    }}                    
                     cover={
                     <img
                         style={{ height: 250 }}
@@ -156,10 +170,13 @@ function AboutMe (){
                         <a className="links-aux" href="https://todoapp-3-dylansebastianm.vercel.app/">
                         <Card
                     hoverable
-                    style={{ width: 300 }}
-                    cover={
+                    style={{
+                        width: 310,
+                        height:450
+                        
+                    }}                     cover={
                     <img 
-                        style={{ height: 250 }}
+                        style={{ height: 280 }}
                         alt="example" src={todoApp} />}
                 >
                     <Meta 
@@ -170,6 +187,34 @@ function AboutMe (){
                     Users can add, delete, and mark tasks as complete.
                     </div>} />
                 </Card>
+                        </a>
+                   
+
+                    </div>
+
+                    <div className="pf-info">
+                        <a className="links-aux" href="https://credit-card-form-puce.vercel.app/">
+                        <Card
+                    hoverable
+                    style={{
+                        width: 310,
+                        height:450
+                        
+                    }}                    
+                    cover={
+                    <img 
+                        style={{ height: 280 }}
+                        alt="example" src={creditCard} />}
+                >
+                    <Meta 
+                        avatar={<a href="https://github.com/dylansebastianm/credit-card-form"><SiGithub className="icon-github"/></a>}
+                        title="Form Credit Card" 
+                    description= {
+                    <div className="info">Controlled form for credit card payment gateway with dynamic 
+                    information such as brand and data of the same.
+
+                    </div>} />
+                    </Card>
                         </a>
                    
 
